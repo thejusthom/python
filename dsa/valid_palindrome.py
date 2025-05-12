@@ -35,3 +35,6 @@ class Solution:
         return (ord('a') <= ord(c) <= ord('z') or
                 ord('A') <= ord(c) <= ord('Z') or
                 ord('0') <= ord(c) <= ord('9'))
+    
+print(Solution().isPalindrome("race a car")) 
+print(Solution().isPalindrome("A man, a plan, a canal: Panama"))
