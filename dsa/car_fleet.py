@@ -13,4 +13,4 @@ class Solution(object):
 target = 12
 position = [10,8,0,5,3]
 speed = [2,4,1,1,3]
-print(Solution.carFleet(target,position,speed))
+print(Solution().carFleet(target,position,speed))
