@@ -13,5 +13,5 @@ class Solution(object):
                 else:
                     r = m-1
             return res
-nums = [2,1]    
+nums = [5,6,7,0,1,2,4]    
 print(Solution().findMin(nums))
